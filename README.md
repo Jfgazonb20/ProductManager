@@ -75,7 +75,7 @@ ProductManager/
 ```
 ## Enlaces Útiles
 
-- [Descargar archivo JSON (directo)](https://raw.githubusercontent.com/jfgazonb20/ProductManager/main/ProductManager/dbDiagram/TécnicaMéxico.postman_collection.json)
+- [Descargar archivo JSON (directo)](https://github.com/Jfgazonb20/ProductManager/blob/main/ProductManager/dbDiagram/TénicaMéxico.postman_collection.json)
 
 ---
 
