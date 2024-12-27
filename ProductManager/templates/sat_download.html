@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descargar SAT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Descargar Datos de SAT - Cancelados</h1>
+        <button id="download-btn" class="btn btn-primary">Descargar Cancelados</button>
+        <div id="message" class="mt-3"></div>
+    </div>
+
+    <script>
+        document.getElementById("download-btn").addEventListener("click", async () => {
+            const messageDiv = document.getElementById("message");
+            messageDiv.textContent = "Descargando...";
+
+            try {
+                const response = await fetch("/sat-data/download/");
+                const data = await response.json();
+
+                if (response.ok) {
+                    messageDiv.textContent = data.message;
+                } else {
+                    messageDiv.textContent = `Error: ${data.error}`;
+                }
+            } catch (error) {
+                messageDiv.textContent = `Error: ${error.message}`;
+            }
+        });
+    </script>
+</body>
+</html>
