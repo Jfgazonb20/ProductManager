@@ -2,6 +2,8 @@
 
 **ProductManager** es una aplicación de gestión de productos y categorías desarrollada con **Django** y **Bootstrap**. Su objetivo es ofrecer una solución sencilla y eficiente para gestionar productos y categorías a través de una interfaz amigable.
 
+---
+
 ## 🚀 Funcionalidades
 
 - 🔍 **Gestión de Productos:**
@@ -64,6 +66,7 @@ ProductManager/
 ├── ProductManager/    # Configuración principal de Django
 ├── categories/        # Aplicación para gestionar categorías
 ├── products/          # Aplicación para gestionar productos
+├── sat_data/          # Aplicación para manejo de datos del SAT
 ├── dbDiagram/         # Diagramas de la base de datos
 ├── templates/         # Archivos HTML
 ├── static/            # Archivos CSS y JS
