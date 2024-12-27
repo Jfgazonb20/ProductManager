@@ -94,7 +94,7 @@ products_product
 
 ### 🖼 Diagrama Visual
 
-![Diagrama de Base de Datos](ProductManager/dbDiagram)
+![Diagrama de Base de Datos](ProductManager/dbDiagram/Untitled.png)
 
 Si deseas editar o visualizar el modelo, usa [DBDiagram](https://dbdiagram.io/) con el siguiente código:
 
