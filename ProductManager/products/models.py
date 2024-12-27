@@ -9,5 +9,8 @@ class Product(models.Model):
     stock = models.PositiveIntegerField()
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
 
+    class Meta:
+        ordering = ['id']  # Ordenará los productos por ID de forma ascendente
+
     def __str__(self):
         return self.name
