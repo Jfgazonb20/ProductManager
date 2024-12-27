@@ -73,7 +73,7 @@ ProductManager/
 ├── TécnicaMéxico.postman_collection.json   # Colección Postman para pruebas de APIs
 ├── requirements.txt   # Dependencias del proyecto
 ```
-[Descargar TecnicaMexico Postman Collection](https://github.com/Jfgazonb20/DigitalMoneyHouseCol/raw/main/ProductManager/dbDiagram/TecnicaMexico.postman_collection.json)
+[Descargar TecnicaMexico Postman Collection](https://github.com/Jfgazonb20/ProductManager/raw/main/ProductManager/dbDiagram/TecnicaMexico.postman_collection.json)
 
 ---
 
