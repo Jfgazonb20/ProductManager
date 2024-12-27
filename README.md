@@ -68,9 +68,9 @@ ProductManager/
 ├── products/          # Aplicación para gestionar productos
 ├── sat_data/          # Aplicación para manejo de datos del SAT
 ├── dbDiagram/         # Diagramas de la base de datos
+    ├── TécnicaMéxico.postman_collection.json   # Colección Postman para pruebas de APIs
 ├── templates/         # Archivos HTML
 ├── static/            # Archivos CSS y JS
-├── TécnicaMéxico.postman_collection.json   # Colección Postman para pruebas de APIs
 ├── requirements.txt   # Dependencias del proyecto
 ```
 
