@@ -76,6 +76,8 @@ ProductManager/
 ## Enlaces Útiles
 
 - [Descargar archivo JSON (directo)](https://github.com/Jfgazonb20/ProductManager/blob/main/ProductManager/dbDiagram/TénicaMéxico.postman_collection.json)
+- [Descargar Python Computadora](https://www.python.org/downloads/)
+- [Descargar Bootstrap o documentacion](https://getbootstrap.com)
 
 ---
 
