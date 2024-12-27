@@ -1,0 +1,12 @@
+# Entorno virtual
+venv/
+*.pyc
+__pycache__/
+db.sqlite3
+*.log
+*.env
+.DS_Store
+
+# Archivos y carpetas específicas de Django
+/static/
+*.migrations/
