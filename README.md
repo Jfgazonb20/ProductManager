@@ -70,7 +70,8 @@ ProductManager/
 ├── dbDiagram/         # Diagramas de la base de datos
 ├── templates/         # Archivos HTML
 ├── static/            # Archivos CSS y JS
-└── requirements.txt   # Dependencias del proyecto
+├── TécnicaMéxico.postman_collection.json   # Colección Postman para pruebas de APIs
+├── requirements.txt   # Dependencias del proyecto
 ```
 
 ---
