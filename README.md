@@ -123,8 +123,8 @@ table products_product {
 
 ## 🎨 Tecnologías Usadas
 
-- **Backend:** Django 4.x
-- **Frontend:** Bootstrap 5
+- **Backend:** Django 5.1.4
+- **Frontend:** Bootstrap 5.3
 - **Base de Datos:** SQLite (por defecto, configurable a MySQL o PostgreSQL)
 - **APIs:** Django REST Framework
 
