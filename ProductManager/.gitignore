@@ -8,5 +8,4 @@ db.sqlite3
 .DS_Store
 
 # Archivos y carpetas específicas de Django
-/static/
 *.migrations/
