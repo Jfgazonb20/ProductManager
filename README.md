@@ -30,7 +30,8 @@ $ cd ProductManager
 ### 2️⃣ Crear y activar un entorno virtual
 ```bash
 $ python -m venv env
-$ source env/bin/activate # En Windows: env\Scripts\activate
+$ source env/bin/activate
+# En Windows: env\Scripts\activate
 ```
 
 ### 3️⃣ Instalar las dependencias
@@ -47,7 +48,7 @@ $ python manage.py migrate
 ### 5️⃣ Cargar datos iniciales (opcional)
 Si deseas trabajar con datos iniciales:
 ```bash
-$ python manage.py loaddata initial_data.json
+$ python manage.py loaddata data/datos.json
 ```
 
 ### 6️⃣ Ejecutar el servidor
