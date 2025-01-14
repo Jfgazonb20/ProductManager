@@ -71,7 +71,9 @@ TEMPLATES = [
     },
 ]
 
-STATICFILES_DIRS = [BASE_DIR / 'static']  # Incluir archivos estáticos personalizados
+# settings.py
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [BASE_DIR / 'static']  
 
 
 REST_FRAMEWORK = {

@@ -89,6 +89,14 @@ h2 {
     width: 100%;
 }
 
+.table td {
+    vertical-align: middle; /* Asegura que el contenido esté centrado verticalmente */
+}
+
+.btn {
+    margin-right: 5px; /* Añade espacio entre los botones */
+}
+
 .table th {
     background-color: #007bff;
     color: white;

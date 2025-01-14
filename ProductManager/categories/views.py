@@ -11,5 +11,6 @@ class CategoryRetrieveUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Category.objects.all()
     serializer_class = CategorySerializer
 
+
 def categories(request):
     return render(request, 'categories.html')
