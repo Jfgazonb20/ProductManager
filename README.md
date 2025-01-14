@@ -27,7 +27,7 @@ $ git clone https://github.com/Jfgazonb20/ProductManager.git
 $  cd .\ProductManager\ 
 ```
 
-### 2️⃣ Crear y activar un entorno virtual
+### 2️⃣ Crear y activar un entorno virtual (opcional si va a desarrollar)
 ```bash
 $ python -m venv env
 $ source env/bin/activate
