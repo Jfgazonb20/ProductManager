@@ -92,6 +92,7 @@ El modelo relacional entre productos y categorías se representa de la siguiente
 categories_category
 ├── id (PK)
 └── name
+└── encargado
 
 products_product
 ├── id (PK)
@@ -112,6 +113,7 @@ Si deseas editar o visualizar el modelo, usa [DBDiagram](https://dbdiagram.io/) 
 table categories_category {
   id int [pk]
   name varchar
+  encargado varchar
 }
 
 table products_product {
