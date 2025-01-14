@@ -99,8 +99,20 @@ document.addEventListener("DOMContentLoaded", () => {
         const stock = parseInt(document.getElementById("stock").value);
         const category = parseInt(document.getElementById("category").value);
 
-        if (!name || price <= 0 || stock < 0 || isNaN(category)) {
-            alert("Por favor, completa todos los campos correctamente.");
+        if (!name) {
+            alert("El nombre del producto es obligatorio.");
+            return;
+        }
+        if (price <= 0 || isNaN(price)) {
+            alert("El precio debe ser mayor a 0.");
+            return;
+        }
+        if (stock < 0 || isNaN(stock)) {
+            alert("El stock no puede ser negativo.");
+            return;
+        }
+        if (isNaN(category)) {
+            alert("Selecciona una categoría válida.");
             return;
         }
 
