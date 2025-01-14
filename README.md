@@ -24,7 +24,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local:
 ### 1️⃣ Clonar el repositorio
 ```bash
 $ git clone https://github.com/Jfgazonb20/ProductManager.git
-$ cd ProductManager
+$  cd .\ProductManager\ 
 ```
 
 ### 2️⃣ Crear y activar un entorno virtual
